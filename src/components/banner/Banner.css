@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,400;0,500;0,600;1,500&family=League+Spartan:wght@500&family=Rubik:wght@400;600;700&display=swap');
+
+
+.banner-container{
+    background-image: url(../../assets/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 995px;
+}
+
+.gate{
+    position: absolute;
+    left: 230px;
+    top: 414px;
+}
+.logistics-text{
+    background: rgba(4, 28, 55, 0.5);
+    width: 235px;
+    height: 17px;
+    line-height: 17px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+}
+
+.logistics-text::before{
+content: "| ";
+font-size: larger;
+color: var(--color-primary1);
+}
+
+.gate h1{
+width: 554px;
+height: 213px;
+font-family: 'Rubik', sans-serif;
+font-weight: 700;
+font-size: 60px;
+line-height: 71px;
+color: #fff;
+}
+
+.gate-text{
+width: 571px;
+height: 72px;
+font-family: 'Krub', sans-serif;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+color: #fff;
+}
+
+.btn-yellow{
+    border: none;
+    width: 194px;
+    height: 60px;
+    background: var(--gradient-color);
+    font-family: 'Krub', sans-serif;
+    font-weight: 600;
+font-size: 16px;
+
+}
+
+.btn-yellow a{
+ text-decoration: none;
+ color: var(--color-primary2);
+}
+
+
