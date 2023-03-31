@@ -1,0 +1,17 @@
+.project-container{
+    position: absolute;
+    width: 1920px;
+    height: 759px;
+    left: 0px;
+    top: 2828px;
+}
+
+.project-container img{
+    width: 250px;
+    height: 308px;
+    padding: 0 24px;
+}
+
+.project-container h3{
+    text-align: center;
+}

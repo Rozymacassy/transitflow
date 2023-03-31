@@ -2,8 +2,13 @@
 
 
 .about-container{
-    position: relative;
-    width: 1919px;
+    position: absolute;
+    width: 100%;
+    margin-top: 4em;
+}
+
+.about-container img{
+    width: 100%;
 }
 
 .child-container{
@@ -11,15 +16,14 @@
     width: 1200px;
     height: 502px;
     left: 165px;
-    top: 370px;
+    top: 320px;
     background: #fff;
 }
 
 .lady-pic{
     position:absolute;
-    top: 300px;
-    right: 450px;
-    bottom: 100px;
+    top: 365px;
+    right: 370px;
    
 }
 
@@ -27,11 +31,15 @@
     border: 20px solid #fff;
 }
 
-.row p, h2{
+.child_container p, h2, .delivery{
     padding-left: 86px;
 }
 
-.row h2{
+.child-container .plane-pic{
+    
+    padding-right: 86px;
+}
+.child_container h2{
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
     font-size: 35px;
@@ -63,3 +71,57 @@
     color: #666C89;
 }
  
+.delivery p{
+font-weight: 400;
+font-size: 25px;
+line-height: 30px;
+padding: 10px 0 0 10px;
+font-family: 'Rubik', sans-serif;
+color: var(--color-primary2);
+
+
+}
+.delivery img{
+    width: 58px;
+    height: 58px;
+}
+
+.lines{
+position: absolute;
+width: 1020px;
+height: 143px;
+top: 700px;
+text-align: center;
+border-top: 1px solid #D5D5D5;
+border-bottom: 1px solid #D5D5D5;
+padding-top: 20px;
+
+}
+
+.nos, .nos1{
+font-weight: 600;
+font-size: 50px;
+line-height: 59px;
+font-family: 'Rubik', sans-serif;
+}
+
+.nos{
+    border-right: 1px solid #D5D5D5;
+
+}
+
+.nos span::before, .nos1 span::before{
+    content: "";
+    padding-left: 5px;
+    padding-right: 3px;
+    background: var(--gradient-color);
+    margin-right: 8px;
+}
+
+.nos span, .nos1 span{
+    font-size: 12px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+}
