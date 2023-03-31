@@ -26,7 +26,7 @@ const Banner = () => {
           </p>
 
           <button className='btn-yellow'>
-            <a href="3">
+            <a href="#">
               Explore More
             </a>
 

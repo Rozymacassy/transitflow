@@ -10,9 +10,9 @@ const Services = () => {
   return (
     <section id="services">
       <div container services-container>
-        <div className="row">
+        <div className="row ">
           <div className="safe-text col-md-3">
-            <p> What We Do</p>
+            <p>What We Do</p>
             <h2>Safe & Reliable Cargo Solution</h2>
           </div>
 
@@ -23,7 +23,7 @@ const Services = () => {
 
               <div className="sea px-3">
                 <h3>Sea Transport Services</h3>
-                <p>
+                <p >
                   Following the quality of our service thus having gained trust of our many clients.
                 </p>
               </div>

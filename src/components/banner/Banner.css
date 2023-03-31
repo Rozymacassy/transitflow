@@ -27,9 +27,9 @@
 }
 
 .logistics-text::before{
-content: "| ";
-font-size: larger;
-color: var(--color-primary1);
+content: "";
+border: 2px solid var(--color-primary1);
+margin-right:  4px;
 }
 
 .gate h1{
@@ -59,7 +59,24 @@ color: #fff;
     background: var(--gradient-color);
     font-family: 'Krub', sans-serif;
     font-weight: 600;
-font-size: 16px;
+    font-size: 16px;
+
+}
+
+.btn-yellow::after{
+    content: "";
+    left: 0;
+    z-index: -1;
+    width: 50%;
+    height: 100%;
+    transition: var(--transition);
+    background-color: #fff;
+
+}
+
+.btn-yellow:hover{
+    border-radius: 0 50px 50px 0;
+    background-color: var(--color-primary1);
 
 }
 
@@ -68,4 +85,6 @@ font-size: 16px;
  color: var(--color-primary2);
 }
 
-
+.btn-yellow a:hover{
+    color: var(--color-primary2);
+   }

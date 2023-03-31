@@ -15,23 +15,27 @@ const About = () => {
 
         <div className="child-container">
           <div className="row">
-            <div className="col-md-6">
-              <p>Why Us</p>
+            <div className="col-md-6 ">
+              <p className='abt-text1'>Why Us</p>
               <h2>
                 We provide full range global logistics solution
 
               </h2>
-              <p>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition. <br />
-              Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+              <p className='abt-text2'>Leverage agile frameworks to provide a robust synopsis for strategy foster collaborative thinking to further the overall value proposition.
+              </p> 
+              <p  className='abt-text2'> Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+
               </p>
+             
+              
 
             </div>
 
-            <div className="col-md-6">
+            <div className="col-md-6 plane-pic">
               <img src={IMG2} alt="" />
 
-              <div>
-                <img src={IMG3} alt="" />
+              <div className='lady-pic'>
+                <img src={IMG3} className='lady'alt="" />
               </div>
             </div>
           </div>

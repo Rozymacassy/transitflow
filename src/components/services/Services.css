@@ -2,8 +2,8 @@
 
 .row{
     width: auto;
-    height: 311px;
-    padding-top: 70px;
+    height: 411px;
+    padding-top: 100px;
     justify-content: center;
 }
 
@@ -15,6 +15,8 @@
     font-size: 35px;
     line-height: 41px;
     color: var(--heading-color);
+    padding-left: 0;
+
 }
 
 .safe img {
@@ -27,10 +29,16 @@
     padding-right: 5px;
 }
  .safe-text p::before {
-    content: "|";
-    height: 3rem;
-    background:var(--color-primary1);
-    width: 1px;
+    content: "";
+    border: 2px solid var(--color-primary1);
+    margin-right: 4px;
+}
+
+.safe-text p{
+    background: rgba(232, 232, 232, 0.5);
+    width: fit-content;
+    padding-left: 0;
+    
 }
 
 .safe-text p, .sea p {
@@ -53,4 +61,11 @@ line-height: 41px;
     font-weight: 400;
     font-size: 25px;
     line-height: 30px;
+}
+.sea p{
+    font-family: 'Krub', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding-left: 0;
 }
