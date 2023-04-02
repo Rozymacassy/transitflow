@@ -39,6 +39,10 @@ Open [project](https://transitflow-psi.vercel.app/#project) to view it in your b
 Runs the app in the browser.\
 Open [contact](https://transitflow-psi.vercel.app/#contact) to view it in your browser.
 
+## Limitation and challenges
+During the cause of this project the Figma design provided was misleading, in the view of providing a pixel perfect design.
+the pixel provided were not corresponding, hence a near pixel perfect design was produced.
+
 ## Technologies and Libraries
 
 - React- React Hooks, React-icons
