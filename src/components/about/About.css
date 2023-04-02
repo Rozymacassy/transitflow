@@ -3,7 +3,7 @@
 
 .about-container{
     position: absolute;
-    width: 100%;
+    width:  100%;
     margin-top: 4em;
 }
 
@@ -15,8 +15,10 @@
     position: absolute;
     width: 1200px;
     height: 502px;
-    left: 165px;
-    top: 320px;
+    margin: 0 auto;
+    display: block;
+    left: 200px;
+    top: 270px;
     background: #fff;
 }
 
@@ -91,6 +93,7 @@ position: absolute;
 width: 1020px;
 height: 143px;
 top: 700px;
+left: 90px;
 text-align: center;
 border-top: 1px solid #D5D5D5;
 border-bottom: 1px solid #D5D5D5;
