@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# Structure and code base of this project (Transitflow)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was hosted on [Vercel](https://transitflow-psi.vercel.app).
 
-## Available Scripts
+## About the Project
 
-In the project directory, you can run:
+This project is a landing page of Transitflow company, which displays the operations and services of the company
 
-### `npm start`
+## Project Description
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This is a React.js application landing page for a transport and logistics company. Front-end technology is built with React while using Hooks and Bootstrap-css.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project was built from this [figma-design](<https://www.figma.com/file/wFF5o2oRlJ5NwzSErAOQz5/Transport-and-Logistics-Webflow-Website-Template-(Community)?node-id=1-3898&t=BXmXjksjy5P4oBfg-0>).
 
-### `npm test`
+In the project directory, there are several components taht made up this project, but below are the major components:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### `Home`
 
-### `npm run build`
+Runs the app in the browser.\
+Open [Home](https://transitflow-psi.vercel.app/#home) to view it in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### `About`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Runs the app in the browser.\
+Open [About](https://transitflow-psi.vercel.app/#about) to view it in your browser.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Pages`
 
-### `npm run eject`
+Runs the app in the browser.\
+Open [pages](https://transitflow-psi.vercel.app/#pages) to view it in your browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `Project`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Runs the app in the browser.\
+Open [project](https://transitflow-psi.vercel.app/#project) to view it in your browser.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Contact`
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Runs the app in the browser.\
+Open [contact](https://transitflow-psi.vercel.app/#contact) to view it in your browser.
 
-## Learn More
+## Technologies and Libraries
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- React- React Hooks, React-icons
+- Bootstarp-css
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Deployment
 
-### Code Splitting
+This project was deployed on Github: [https://github.com/Rozymacassy/transitflow](https://github.com/Rozymacassy/transitflow)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Requirements to use and Installation
 
-### Analyzing the Bundle Size
+To install and run this project you wold need to have installed:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [Node](https://nodejs.org/en/download)
+- [Git](https://git-scm.com/downloads)
