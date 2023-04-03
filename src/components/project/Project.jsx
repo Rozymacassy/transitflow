@@ -22,7 +22,7 @@ const Project = () => {
         </div>
         <button className='btn-blue'>
             <a href="#">
-              Explore More
+              More Work
             </a>
 
           </button>

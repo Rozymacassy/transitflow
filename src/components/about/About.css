@@ -33,7 +33,7 @@
     border: 20px solid #fff;
 }
 
-.child_container p, h2, .delivery{
+.child_container p, .h2-text, .delivery{
     padding-left: 86px;
 }
 

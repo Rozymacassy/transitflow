@@ -20,7 +20,7 @@ const About = () => {
           <div className="row child_container">
             <div className="col-md-6 ">
               <p className='abt-text1'>Why Us</p>
-              <h2>
+              <h2 className='h2-text'>
                 We provide full range global logistics solution
 
               </h2>
