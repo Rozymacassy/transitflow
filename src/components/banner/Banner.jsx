@@ -25,12 +25,13 @@ const Banner = () => {
             In augue ligula, feugiat ut nulla consequat. Ut est lacus, molestie in arcu no, iaculis vehicula ipsum. Nunc faucibus, nisl id dapibus finibus, enim diam interdum nulla, sed laoreet risus lectus.
           </p>
 
-          <button className='btn-yellow'>
-            <a href="#">
+         
+            <a className='btn-yellow' href="#">
               Explore More
             </a>
 
-          </button>
+        
+          {/* <div className="white-circle"></div> */}
         </div>
 
 

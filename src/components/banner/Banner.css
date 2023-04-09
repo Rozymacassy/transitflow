@@ -52,7 +52,7 @@ line-height: 24px;
 color: #fff;
 }
 
-.btn-yellow{
+/* .btn-yellow{
     border: none;
     width: 194px;
     height: 60px;
@@ -61,16 +61,66 @@ color: #fff;
     font-weight: 600;
     font-size: 16px;
 
+} */
+
+.btn-yellow {
+text-decoration: none;
+color: var(--color-primary2);
+padding: 10px 20px;
+position: relative;
+transition: all 1s;
+overflow:auto;
+background: var(--gradient-color);
+font-family: 'Krub', sans-serif;
+font-weight: 600;
+display: inline-block;
+font-size: 16px;
+}
+.btn-yellow::after {
+content: "Explore More";
+position: absolute;
+display: grid;
+place-items: center;
+color: var(--color-primary2);
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: all 1s;
+z-index:  1;
+}
+.btn-yellow:hover::after {
+opacity: 1;
+
 }
 
-.btn-yellow::after{
+.btn-yellow::before {
+content: "";
+position: absolute;
+bottom: -26px;
+right: -27px;
+width:50px;
+height:50px;
+border-radius: 50%;
+background-color: #fff;
+transition: all 1s;
+
+}
+
+.btn-yellow:hover::before {
+transform: scale(3.5);
+
+}
+
+/* .btn-yellow::after{
     content: "";
     left: 0;
     z-index: -1;
     width: 50%;
     height: 100%;
     transition: var(--transition);
-    background-color: #fff;
+    background: #fff;
 
 }
 
@@ -87,4 +137,7 @@ color: #fff;
 
 .btn-yellow a:hover{
     color: var(--color-primary2);
-   }
+   } */
+
+
+   

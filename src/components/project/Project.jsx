@@ -11,7 +11,7 @@ const Project = () => {
   return (
     <section id='project'>
       <div className='container project-container'>
-        <h3>Transporting Across The World</h3>
+        <h2>Transporting Across The World</h2>
 
         <div className="img-container row">
           <div className="col-md-2"><img src={IMG1} alt="" /></div>
